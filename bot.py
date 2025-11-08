@@ -46,7 +46,7 @@ logger = logging.getLogger(_name_)
 # Конфигурация (должна быть в .env)
 TOKEN = os.getenv("BOT_TOKEN")
 ADMIN_CHAT_ID = os.getenv("ADMIN_CHAT_ID")
-SUPPORT_USERNAME = os.getenv("SUPPORT_USERNAME", "@Fluuuuuuuuuu")
+SUPPORT_USERNAME = os.getenv("SUPPORT_USERNAME")
 
 # Константы
 class OrderStatus(Enum):
