@@ -28,7 +28,7 @@ logging.basicConfig(
         logging.StreamHandler()
     ]
 )
-logger = logging.getLogger(_name_)
+logger = logging.getLogger(__name__)
 
 # Конфигурация
 TOKEN = os.getenv("BOT_TOKEN")
