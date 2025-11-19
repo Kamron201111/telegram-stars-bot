@@ -27,7 +27,7 @@ logger = logging.getLogger(__name__)
 # ==========================
 #  CONFIG (SENING MA'LUMOTING)
 # ==========================
-TOKEN = "7810689974:AAHpifjmAG_tOwDvIGRNG4L1ah8mix38cWU"
+TOKEN = "7857825901:AAHbXR4E8kLMshhflcLhEF6IXp_jzXXurtE"
 ADMIN_CHAT_ID = "6498632307"
 SUPPORT_USERNAME = "@Kamron201"
 REDIS_URL = os.getenv("REDIS_URL", "redis://localhost:6379")
